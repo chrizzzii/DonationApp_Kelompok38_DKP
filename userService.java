@@ -25,7 +25,7 @@ public class userService {
             return false;
         }
 
-        public void login() {
+        public boolean login() {
             boolean status = checkCredential();
             if(status) {
                 System.out.println("\nSalam hangat " + roles);
@@ -34,5 +34,6 @@ public class userService {
                 System.out.println("\nLOGIN GAGAL ");
 
             }
+            return status;
         }
     }
