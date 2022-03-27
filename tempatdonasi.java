@@ -5,7 +5,7 @@ public class tempatdonasi {
 
     public tempatdonasi() {
         String[][] data = new String[][]{
-                {"Panti Asuhan A - Jakarta" , "Panti Asuhan B - Bandung"},
+                {"Panti Asuhan" , "Panti Jompo"},
         };
         for (String[] s : data) {
             System.out.println(Arrays.toString(s));

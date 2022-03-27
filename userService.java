@@ -13,10 +13,10 @@ public class userService {
         }
         
         private boolean checkCredential() {
-            for(int i = 0; i < data.length; i++ ) {
-                if(data[i][0].equals(email)) {
-                    if(data[i][1].equals(password)) {
-                        roles = data[i][2];
+            for (String[] datum : data) {
+                if (datum[0].equals(email)) {
+                    if (datum[1].equals(password)) {
+                        roles = datum[2];
                         return true;
 
                     }
