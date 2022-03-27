@@ -8,7 +8,7 @@ public class userService {
             email = emails;
             password = passwords;
             this.data = new String[][]{
-                    {"crseven.utd.com", "siuuu7", "Our donators"},
+                    {"warga@donasi.com", "donasi", "Our donators"},
             };
         }
         
