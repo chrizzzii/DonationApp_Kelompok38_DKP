@@ -3,13 +3,22 @@ import java.util.Scanner;
 public class ProgramDonasi {
     public static void main(String[] args) {
 
-        String email, password;
+        //Ini halaman login
+        String emailuser, passworduser;
         Scanner input = new Scanner(System.in);
         System.out.print("Email : ");
-        email = input.nextLine();
+        emailuser = input.nextLine();
         System.out.print("Password : ");
-        password = input.nextLine();
-        userService halamanlogin = new userService(email, password);
+        passworduser = input.nextLine();
+        userService halamanlogin = new userService(emailuser, passworduser);
         halamanlogin.login();
+
+        //Interface Donasi
+        System.out.println("Selamat Datang di Program Donasi");
+        System.out.println("Pilih tempat Anda berdonasi: ");
+        tempatdonasi daftar = new tempatdonasi();
+        System.out.println(daftar);
+
+
     }
 }
