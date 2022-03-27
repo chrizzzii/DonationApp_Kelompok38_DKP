@@ -43,6 +43,3 @@ public class closing {
         System.out.println("=================================");
     }
 }
-public class closing{
-
-}
