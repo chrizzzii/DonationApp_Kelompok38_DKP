@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class closing {
@@ -41,4 +42,7 @@ public class closing {
         System.out.println(" semoga bermanfaat bagi penerima ");
         System.out.println("=================================");
     }
+}
+public class closing{
+
 }
