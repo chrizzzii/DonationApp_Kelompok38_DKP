@@ -96,7 +96,7 @@ public class ProgramDonasi {
 
     //Fungsi Nama Tempat Donasi
     static void listNamaTempatDonasi() {
-        String[] tempatDonasi = {"Panti Asuhan", "Panti Jompo", "Rumah Ibadah, Rumah Ibadah"};
+        String[] tempatDonasi = {"Panti Asuhan", "Panti Jompo", "Rumah Ibadah"};
         System.out.println("======Silahkan pilih tempat Donasi======");
 
         for (int namaTempatDonasi = 0; namaTempatDonasi < 3; namaTempatDonasi++) {
